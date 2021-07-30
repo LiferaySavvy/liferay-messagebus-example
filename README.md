@@ -2,11 +2,11 @@
 ## Liferay Portal : Liferay 7.4 CE ++ 
 ### Installation
 * Clone current repo    
-`git clone https://github.com/LiferaySavvy/liferay72-ddm-custom-field.git` 
+`git clone https://github.com/LiferaySavvy/liferay-messagebus-example.git` 
 * Direct download link  
-`https://github.com/LiferaySavvy/liferay72-ddm-custom-field/archive/master.zip`     
-* Update Liferay Home path in build.gradle file. 
-* Locate to project or import into your IDE run following gradle tasks.  
+`https://github.com/LiferaySavvy/liferay-messagebus-example/archive/refs/heads/master.zip`     
+
+* Import into your Liferay Workspace and run following gradle tasks.  
 
 ````
 gradlew build
