@@ -1,0 +1,4 @@
+Bundle-Name: liferaysavvy-messagebus
+Bundle-SymbolicName: com.liferaysavvy.messagebus.example
+Bundle-Version: 1.0.0
+Export-Package: com.liferaysavvy.messagebus.constants
