@@ -69,7 +69,7 @@ public class MessageSenderServiceImpl{
 	public void sendSynchronousMessageToDestination(String message,String destinationName) {
 
         Message messageobj = new Message();
-        messageobj.put("message", "abcdef");
+        messageobj.put("message", message);
         try {
 			MessageBusUtil.sendSynchronousMessage(destinationName, messageobj);
 			//MessageBusUtil.sendSynchronousMessage(destinationName, message, timeout)
