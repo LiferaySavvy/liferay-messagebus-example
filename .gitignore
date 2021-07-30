@@ -3,7 +3,9 @@
 build/
 target/
 bin/
-
+.idea/
+.project
+.classpath
 # Compiled class file
 *.class
 
