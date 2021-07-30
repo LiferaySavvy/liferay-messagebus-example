@@ -11,3 +11,4 @@ bin/
 
 # Log file
 *.log
+*.iml
