@@ -2,6 +2,7 @@
 .sass-cache/
 build/
 target/
+bin/
 
 # Compiled class file
 *.class
