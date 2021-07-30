@@ -21,6 +21,7 @@ import com.liferay.portal.kernel.messaging.MessageListener;
 import com.liferaysavvy.messagebus.constants.LiferayMessageBusPortletKeys;
 import com.liferaysavvy.messagebus.event.listener.MessageBusRegisteredParallelMessageListener;
 import com.liferaysavvy.messagebus.event.listener.MessageBusRegisteredSerialMessageListener;
+import com.liferaysavvy.messagebus.event.listener.MessageBusRegisteredSynchronousMessageListener;
 
 import org.osgi.service.component.annotations.Activate;
 import org.osgi.service.component.annotations.Component;
@@ -43,7 +44,7 @@ public class MessageBusRegistrator{
         _messageBus.registerMessageListener(LiferayMessageBusPortletKeys.DESTINATION_SERIAL, _messageListenerSerail);
         _log.info("Message Listener Registered.."+_messageListenerSerail);
         
-        _messageListenerSynchronius = new MessageBusRegisteredParallelMessageListener();
+        _messageListenerSynchronius = new MessageBusRegisteredSynchronousMessageListener();
         _messageBus.registerMessageListener(LiferayMessageBusPortletKeys.DESTINATION_SYNCHRONOUS, _messageListenerSynchronius);
         _log.info("Message Listener Registered.."+_messageListenerSynchronius);
     }
