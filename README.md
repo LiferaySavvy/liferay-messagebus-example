@@ -19,4 +19,5 @@ gradle deploy
 
 ````
 ### Documentation 
-* [Working with Liferay Message Bus](http://www.liferaysavvy.com/2021/07/working-with-liferay-message-bus.html)
+* [Working with Liferay Message Bus](http://www.liferaysavvy.com/2021/07/working-with-liferay-message-bus.html) 
+* [Liferay Message Bus Implementation](http://www.liferaysavvy.com/2021/07/liferay-message-bus-implementation.html)
