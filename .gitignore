@@ -12,3 +12,4 @@ bin/
 # Log file
 *.log
 *.iml
+.settings
